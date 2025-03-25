@@ -1,0 +1,58 @@
+*, *:before, *:after {
+    box-sizing: content-box;
+}
+.tiles article {
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-transition: -moz-transform 0.25s ease, opacity 0.25s ease, -moz-filter 1s ease, -webkit-filter 1s ease;
+    -webkit-transition: -webkit-transform 0.25s ease, opacity 0.25s ease, -webkit-filter 1s ease, -webkit-filter 1s ease;
+    -ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease, -ms-filter 1s ease, -webkit-filter 1s ease;
+    transition: transform 0.25s ease, opacity 0.25s ease, filter 1s ease, -webkit-filter 1s ease;
+    padding: 4em 4em 2em 4em ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: default;
+    height: 40vh;
+    overflow: hidden;
+    position: relative;
+    width: 20%;
+}
+.tiles {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 0 !important;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#banner.major {
+    height: 45vh;
+    min-height: 10em;
+    max-height: 15em;
+}
+img{
+    overflow: auto;
+}
+h1 {
+    text-align: center;
+}
+div.content {
+    text-align: center;
+}
+ul.icons{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+ul{
+    margin-left: 25px;
+}

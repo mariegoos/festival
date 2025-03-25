@@ -1,0 +1,29 @@
+.title-1 {
+    text-align: center;
+}
+
+.row {
+    padding-top: 4%;
+}
+
+.section-heading {
+    width: 50%;
+    margin: auto;
+}
+
+
+
+.button {
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    padding: 2%;
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 2px 4px black;
+}
+
+.button:hover {
+    background-color: #e95749;
+    box-shadow: 2px 2px 4px red;
+}
